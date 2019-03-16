@@ -99,4 +99,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
     ProtonImmersiveNavigationOverlay \
-    ProtonSettings
+    ProtonSettings \
+    NoCutoutOverlay
