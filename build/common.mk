@@ -19,3 +19,6 @@ PRODUCT_HOST_PACKAGES += \
     debugfs \
     signapk \
     zipalign
+
+# Inherit from our kernel/header generator
+$(call inherit-product, vendor/proton/config/BoardConfigProton.mk)
