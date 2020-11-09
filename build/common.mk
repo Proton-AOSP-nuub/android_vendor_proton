@@ -22,7 +22,8 @@ PRODUCT_HOST_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
+    AndroidBlackThemeOverlay \
+    ProtonImmersiveNavigationOverlay
 
 # Disable remote keyguard animation
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
