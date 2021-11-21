@@ -42,7 +42,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Enable gestural navigation overlay to match default navigation mode
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
 
 # AOSP userdebug/eng CLI tools
 PRODUCT_PACKAGES += \
