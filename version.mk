@@ -13,6 +13,7 @@
 # limitations under the License.
 
 CUSTOM_ROM_VERSION := 12.4.1
+PROTON_BUILD_VERSION := ProtonAOSP-$(CUSTOM_ROM_VERSION)
 
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.build.version.custom=$(CUSTOM_ROM_VERSION)
