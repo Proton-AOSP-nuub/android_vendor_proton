@@ -20,5 +20,9 @@ PRODUCT_HOST_PACKAGES += \
     signapk \
     zipalign
 
+# Disable remote keyguard animation
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.wm.enable_remote_keyguard_animation=0
+
 # Inherit from our kernel/header generator
 $(call inherit-product, vendor/proton/config/BoardConfigProton.mk)
