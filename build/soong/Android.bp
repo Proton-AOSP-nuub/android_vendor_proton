@@ -111,7 +111,7 @@ surfaceflinger_udfps_lib {
 soong_config_module_type {
     name: "surfaceflinger_qcom_extensions",
     module_type: "cc_defaults",
-    config_namespace: "protonGlobalVars",
+    config_namespace: "protonQcomVars",
     value_variables: ["qcom_display_headers_namespace"],
     properties: [
         "cppflags",
