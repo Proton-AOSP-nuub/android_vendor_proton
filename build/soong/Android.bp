@@ -27,13 +27,19 @@ proton_generator {
     export_include_dirs: [
         "usr/audio/include/uapi",
         "usr/include",
+        "usr/include/audio",
         "usr/include/audio/include/uapi",
-        "usr/techpack/audio/include"
+        "usr/techpack/audio/include",
     ],
 
     // Sources for dependency tracking
     dep_root: "$(TARGET_KERNEL_SOURCE)",
-    dep_files: [ "Makefile", "include/**/*", "arch/$(KERNEL_ARCH)/include/**/*", "techpack/audio/include/**/*"],
+    dep_files: [
+        "Makefile",
+        "include/**/*",
+        "arch/$(KERNEL_ARCH)/include/**/*",
+        "techpack/audio/include/**/*",
+    ],
 }
 
 cc_library_headers {
@@ -45,6 +51,7 @@ cc_library_headers {
 }
 
 // Target platform agnostic config modules
+
 soong_config_module_type {
     name: "gralloc_10_usage_bits",
     module_type: "cc_defaults",
@@ -141,7 +148,7 @@ vendor_init {
 soong_config_module_type {
     name: "qti_camera_device",
     module_type: "cc_defaults",
-    config_namespace: "protonGlobalVars",
+    config_namespace: "protonQcomVars",
     bool_variables: ["uses_qti_camera_device"],
     properties: [
         "cppflags",
@@ -162,7 +169,7 @@ qti_camera_device {
 soong_config_module_type {
     name: "extended_compress_format",
     module_type: "cc_defaults",
-    config_namespace: "protonGlobalVars",
+    config_namespace: "protonQcomVars",
     bool_variables: ["supports_extended_compress_format"],
     properties: ["cflags"],
 }
