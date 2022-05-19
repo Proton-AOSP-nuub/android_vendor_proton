@@ -18,5 +18,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/proton/overlay
 # Framework overlay needs to be a RRO
 PRODUCT_ENFORCE_RRO_TARGETS += framework-res
 
-# Lawnicons
-$(call inherit-product-if-exists, vendor/lawnicons/overlay.mk)
+# Overlays
+PRODUCT_PACKAGES += \
+    PixelLauncherIconsOverlay
