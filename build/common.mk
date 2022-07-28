@@ -20,11 +20,6 @@ PRODUCT_HOST_PACKAGES += \
     signapk \
     zipalign
 
-# Overlays
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay \
-    ProtonImmersiveNavigationOverlay
-
 # Disable remote keyguard animation
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0
