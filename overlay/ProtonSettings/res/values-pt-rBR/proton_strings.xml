@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2020-2022 Project Fluid
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gerenciamento de Icones</string>
+    <string name="icon_manager_summary">Controle a visibilidade dos ícones da barra de status</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema AMOLED</string>
+    <string name="system_black_theme_summary">Forçar o sistema a usar AMOLED ao invés de Dark</string>
+
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de Navegação</string>
+    <string name="immersive_navigation_title">Navegação imersiva</string>
+    <string name="immersive_navigation_summary">Ocultar a barra de gestos e o preenchimento da barra de navegação</string>
+
+    <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Tamanho da barra de gestos</string>
+    <string name="gesture_navbar_length_preference_short_label">Curta</string>
+    <string name="gesture_navbar_length_preference_long_label">Longa</string>
+
+   <!-- Battery Settings -->
+    <string name="battery_settings_title">Configurações de exibição do indicador de bateria</string>   
+
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Estilos de indicador</string>
+    <string name="battery_style_category_summary">Selecione os estilos de indicador de bateria</string>
+    <string name="battery_percent_title">Porcentagem do indicador de Bateria</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Estilos de indicadores</string>
+    <string name="status_bar_battery_style_icon_portrait">Icone em retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Circulo (Pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Circulo (Preenchido)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Indicador de porcentagem</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do indicador de bateria</string>
+    <string name="status_bar_battery_percentage_text_next">Proximo do indicador de bateria</string>
+
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Mostrar ícone padrão de Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Exibir o tipo de conexão Wi-Fi no icone</string>
+
+   <!-- Media artwork -->
+    <string name="media_category">Notificação de mídia</string>
+    <string name="artwork_media_background_title">Capa do album</string>
+    <string name="artwork_media_background_summary">Definir a capa do álbum como fundo da notificação de mídia</string>
+    <string name="artwork_media_background_enable_blur_title">Desfoque</string>
+    <string name="artwork_media_background_blur_radius_title">Nível de desfoque para a capa do álbum</string>
+    <string name="artwork_media_background_alpha_title">Transparência</string>
+    <string name="artwork_media_background_fade_filter_title">Nível de transparência para a capa do álbum</string>
+
+</resources>
