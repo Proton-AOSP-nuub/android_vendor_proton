@@ -98,4 +98,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Overlays
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
-    ProtonImmersiveNavigationOverlay
+    ProtonImmersiveNavigationOverlay \
+    ProtonSettings

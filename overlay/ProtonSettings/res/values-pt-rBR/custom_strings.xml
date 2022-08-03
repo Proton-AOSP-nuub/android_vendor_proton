@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2021 Paranoid Android
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslizar para Capturar a Tela</string>
+    <string name="three_finger_gesture_summary">Realizar uma captura de tela ao deslizar três dedos na tela para baixo</string>
+
+    <!-- Advanced Reboot -->
+    <string name="global_actions_advanced_reboot_title">Reinicialização avançada</string>
+    <string name="global_actions_advanced_reboot_summary">Exibir opções de reinicialização avançada no menu de energia</string>
+    
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_title">Toque para Dormir</string>
+    <string name="double_tap_sleep_summary">Toque duas vezes em qualquer lugar da barra de status para desligar a tela</string>
+
+     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Lanterna ao desligar a tela</string>
+    <string name="torch_power_button_gesture_none">Desativado</string>
+    <string name="torch_power_button_gesture_dt">Duplo toque no botão de energia (Desabilita o gesto de câmera rápida e adiciona um delay de 170ms para ligar a tela)</string>
+    <string name="torch_power_button_gesture_lp">Toque longo no botão de energia</string>
+    
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controlar a Reprodução de Mídia</string>
+    <string name="volume_button_music_control_summary">Alternar entre as mídias com os botões de volume ao desligar a tela</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração ao chamar</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+
+</resources>
