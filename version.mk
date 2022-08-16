@@ -17,6 +17,10 @@ PROTON_BUILD_VERSION := ProtonAOSP-$(CUSTOM_ROM_VERSION)
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(TARGET_DEVICE))
 PROTON_BUILD_VERSION := ProtonAOSP-$(CUSTOM_ROM_VERSION)-$(TARGET_PRODUCT_SHORT)
 
+# Custom security patch
+CUSTOM_SECURITY_PATCH := 2022-08-05
+
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.build.version.custom=$(CUSTOM_ROM_VERSION) \
-    ro.build.version.device=$(TARGET_PRODUCT_SHORT)
+    ro.build.version.device=$(TARGET_PRODUCT_SHORT) \
+    ro.build_security_patch=$(CUSTOM_SECURITY_PATCH)
